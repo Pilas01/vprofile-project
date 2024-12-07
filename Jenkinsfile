@@ -3,8 +3,7 @@ pipeline {
     tools {
         maven "MAVEN3"
         jdk "OracleJDK17"
-    }
-*/	
+    }	
     environment {
         SNAP_REPO = 'maven-snapshots'
         NEXUS_USER = 'nexus'
