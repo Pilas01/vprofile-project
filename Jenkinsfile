@@ -14,6 +14,8 @@ pipeline {
         NEXUS_PORT = '8081'
         NEXUS_GRP_REPO = 'maven-public'
         NEXUS_LOGIN = 'Nexuslogin'
+        SONARSERVER = 'sonarserver'
+        SONARSCANNER = 'sonarscanner'
     }
 
     stages {
